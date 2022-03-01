@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
     
     void FixedUpdate() {
         // moving
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        //rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         
         //aiming
         // Vector2 lookDirection = mousePos - rb.position;
